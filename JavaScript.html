@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Projects</title>
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+	<meta charset="utf-8">
+
+	<script type="text/javascript">
+
+		var count = 0;
+		function buttonclick(button){
+			alert("Hello my freands!" + "Button name:" + button.name);
+		}
+		function countadd(element){
+			element.innerHTML = "Было наведенно раз: " + count++;
+		}
+	</script>
+	<style type="text/css">
+			#Clear{
+				height: 1000px;
+			}
+	</style>
+</head>
+<body>
+<header>
+<h1 id="MainLogo">|News</h1>
+<h4 id="RightText">Join</h4>
+</header>
+<center>
+<div id="Menu">
+<a href="MainPage.html"><h3 id="MenuText">News</h3></a>
+<a href="JavaScript.html"><h3 id="MenuText">Projects</h3></a>
+<a href=""><h3 id="MenuText">Studio</h3></a>
+<h3 id="MenuText">About us</h3>
+</div>
+</center>
+	<!--<script type="text/javascript">
+		var person;
+		person="Мудила";
+		alert("Привет, " + person + " :D");
+		if(confirm("Ты хочешь продолжить?")){
+			person = prompt("Введи имя, Мудила");
+			alert(person + ", ты серьёзно? Что за уродливое имя?");
+		}else{
+			alert("Молодец, иди нахуй");
+		}
+
+		document.write("<br/>" + "Привет, " + person + " как дела?");
+	</script>
+	<br/>
+	<script type="text/javascript">
+	var arr = new Array (1,2,3,4,5);
+	document.write("Го я сейчас выведу многомерный массив?");
+	document.write("<br/>" + "Поехали!");
+	for (var i = 0; i < arr.length; i++){
+		
+		document.write(" " + arr[i]);
+
+	}
+
+	document.write("Го двемерный массив:" + "<br/>");
+
+	var arr1 = new Array;
+	var arr2 = new Array;
+	var arr3 = new Array;
+
+	for (var i = 0; i < 5; i++) arr1[i] = i;
+	for (var i = 0; i < 10; i++) arr2[i] = i;
+	for (var i = 0; i < 15; i++) arr3[i] = i;
+
+	var arr_n = new Array(arr1, arr2, arr3);
+
+	document.write(arr_n[0]);
+
+	</script> -->
+	<br/>
+	<br/>
+	<script type="text/javascript">
+	var gloabal = 10;
+	var i = 15;
+
+	function test(){
+		gloabal++;
+		var i = 20;
+
+	}
+
+	test();
+
+	document.write("Global - " + gloabal + " ,varibal i " + i);
+
+
+	</script>
+
+	<input type = "button" name="b" value="Klick me"  onclick="buttonclick(this)" />
+
+	<span onmouseover="countadd(this)"> Было наведенно раз: </span>
+
+
+<div id="Clear">dffdg</div>
+<footer>
+	<h4 id="FooterText">|VarbinStudio</h4>
+	<h4 id="FooterTextRight">2017|All right reserved!</h4>
+</footer>
+</body>
+</html>

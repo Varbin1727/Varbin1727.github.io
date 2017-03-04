@@ -1,0 +1,298 @@
+*{
+margin: 0;
+padding: 0;
+font-family:Cabin;
+}
+a{
+	text-decoration: none;
+	color:#919191;
+}
+
+::selection{
+	color:#e3e3e3;
+	background-color:#666;
+	border-radius: 5px;
+}
+
+body{
+	height: 100%
+	width: 100%;
+	min-width: 1050px;
+}
+header{
+padding:1%;
+margin:0;
+padding:0;
+height:40px;
+width:100%;
+background-color:#000;
+color:#919191;
+min-width:720px;
+}
+footer{
+padding-top:1%;
+height:40px;
+width:100%;
+background-color:#000;
+color:#919191;
+float:left;
+}    
+
+#FooterText{
+	font-size:1em;
+	margin:10px;
+	color:#d9d9d9;
+	float:left;
+}
+#FooterTextRight{
+	font-size:1em;
+	margin:10px;
+	color:#d9d9d9;
+	float:right;
+}
+
+#TopPanel{
+	margin:1%;
+	width: 98%;
+	height: 500px;
+	background-color:#d9d9d9;
+	border-radius: 1px; 
+	max-width: 1920px;
+	min-width: 720px;
+	background-image: url("img/BackgroundImg1.jpg");
+}
+
+article{
+	margin-top:3%;
+	margin-left: 1 auto;
+	margin-right: 1 auto;
+	width: 20%;
+	height: 400px;
+	border: solid #d9d9d9;
+	background-color:#d9d9d9;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+	max-width: 350px;
+	min-width: 250px;
+
+
+}
+
+#VerticalPanelBackgraund{
+	width: 98%;
+	margin: 1%;
+
+}
+
+#VerticalPanel{
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	background-color:#fabbcf;
+	width: 48%;
+	height: 300px;
+	border-radius:2px;
+	float:left;
+	background-image: url("img/BackgroundImg1.jpg");
+	transition: all.2s ease;
+	
+
+}
+
+#VerticalPanel:hover{
+	transition: all.2s ease;
+}
+#VerticalPanel #Info{
+
+	margin-left: 20px;
+	float:left;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: auto;
+	text-align: center;
+	
+
+}
+
+#VerticalTitleText{
+	width: 98%;
+	margin:1%	
+	font-size: 2em;
+	color:#fff;
+
+}
+#VertivalInfoText{
+	height: 100%;
+	width: 50%;
+	margin-right: 2%;
+	margin-top: 3%;
+	font-size: 1.2em;
+	color:#fff;
+	float: right;
+}
+
+#VerticalPanelImg{
+	
+}
+
+
+#AudioPanel{
+	margin: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+#ContentPanel{
+	margin-top: 1%;
+	height: 500px;
+	background-color:#e8e8e8;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	float:left;
+
+}
+
+#backgroundimg{
+	padding:0;
+	margin:0;
+}
+#backgroundimg2{
+
+	/*background-image: url("img/Background2.jpg");*/
+	filter: blur(5px); 
+	height: 500px;
+	width: 100%;
+
+
+}
+
+#banertext{ 
+	padding-top: 150px;
+	font-size: 8em;
+	color:#fafafa;
+	/*float:left;*/
+}
+
+/*img{
+	width: 100%;
+	height: 50%;
+	float:left;
+	transition:all.5s ease;
+	border-radius: 5px;
+}*/
+img:hover{
+	transition:all.5s ease;
+	filter:blur(5px);
+}
+
+#Text{
+	margin-top:51%;
+	margin-left:2%;
+	margin-right:2%;
+	width: 98%;
+	height: 5%;
+}
+
+#SubText{
+	color: #bababa;
+	margin-top:10%;
+	margin-left:5%;
+	margin-right:5%;
+	width: 90%;
+	height: 40%;
+}
+#MainText{
+	color:#575757;
+	text-shadow: 5px;
+	font-size: 3em;
+	text-decoration: underline;
+}
+
+#MainLogo{
+padding-left:1%;
+color:#fafafa;
+width:50%;
+float:left;
+}
+#Menu{
+margin-top:5px;
+font-family:Cabin;
+height:50px;
+width: 700px;
+/*background-color:#b8b8b8;*/
+color:#919191;
+border-radius:0px;
+transition:all.5s ease;
+
+}
+#Menu:hover{
+transition:all.5s ease;
+height:50px;
+background-color:#e3e3e3;
+color:#919191;
+border-radius:5px;
+}
+#MenuText{
+	margin-top:2%;
+	margin-left:13%;
+	float:left;
+	transition:all.4s ease;
+	font-size: 1.3em;
+	text-shadow:#919191;
+}
+#MenuText:hover{
+	transition:all.4s ease;
+	background-color:#595959;
+	border-radius: 4px;
+	color:#e0e0e0;
+}
+#MenuText:active{
+	transition:all.4s ease;
+	background-color:#595959;
+	border-radius: 15px;
+	color:#e0e0e0;
+}
+
+#RightText{
+	margin: 0;
+	padding: 0;
+	padding-right:1%;
+	padding-top: 1%;
+	float:right;
+}
+
+@media (min-width: 1930px){
+	#VerticalPanel{
+		margin-left:auto;
+		margin-right: auto;
+		float:none;
+	}
+}
+
+
+@media (max-width: 1201px){
+	#VerticalPanel{
+	}
+}
+
+
+@media(max-width: 1200px){
+	#VerticalPanel{
+		margin-left:auto;
+		margin-right: auto;
+		width: 1000px;
+		height: 250px;
+		min-width: 700px;
+		float:none;
+
+	}
+
+	article{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
