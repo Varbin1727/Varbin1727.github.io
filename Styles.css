@@ -32,16 +32,12 @@ header{
 }
 
 #MidleContent{
-	margin-left:0.5%;
-	margin-right:0.5%;
+
 	margin-top:0.5%;
 
-	border-bottom: solid 2px #D5D5D5;
-	border-right: solid 2px #D5D5D5;
-	border-top: solid 1px #D5D5D5;
-	border-left: solid 1px #D5D5D5;
+	box-shadow: 0 0 2px;
 
-	width: 99%;
+	width: 100%;
 	height: 500px;
 	background-color:#EFEFEF;
 	background-image: url("http://www.dtelepathy.com/blog/wp-content/uploads/2015/06/Technique-for-Faster-Web-Development.jpg");
@@ -52,34 +48,38 @@ header{
 	
 	margin-left:0.5%;
 	margin-right:0.5%;
-	margin-top:0.5%;
+	margin-top:5;
+	margin-bottom: 10px;
 
+	/*
 	border-bottom: solid 2px #D5D5D5;
 	border-right: solid 2px #D5D5D5;
 	border-top: solid 1px #D5D5D5;
 	border-left: solid 1px #D5D5D5;
-
+	*/
 	width: 929px;
-	height: 500px;
+	height: 600px;
 	background-color:#EFEFEF;
 	background-position: center;
+
+	box-shadow: 0 0 2px;
 
 }
 
 #CenterContent{
 	position: relative;
 	z-index: 1;
-	top:200px;
-	width: 500px;
-	height: 100px;
-	border: solid 10px #FFE0B2;
+	top:100px;
+	width: 1000px;
+	height: 300px;
+	border: solid 10px #fff5e3;
 }
 
 #CenterText{
 	position: relative;
-	top : 7px;
+	top : 120px;
 	font-size: 5em;
-	color:#FFE0B2;
+	color:#fff5e3;
 }
 
 #MidleContent : hover{
@@ -98,30 +98,35 @@ header{
 }
 
 #ContentDivTop{
+	background-image: url("img/OnlyUp.png"); 
+	background-position:center;
 	position: relative;
-	height: 70%;
+	height: 75%;
 	width: 100%
 	z-index: 1;
 	background-color: #FFE0B2;
 }
-#DivTopText{
-	color:#424242;
+#DivBottomText{
+	color:#fff;
 	position:relative;
-	left: -250px;
-	top:300px;
-	z-index: 2;
+	left: 50px;
+	top: -25px;
+	z-index: 3;
 	font-size: 2em;
+	float:left;
 }
 #ContenDivButtom{
-	z-index: 1;
+	z-index: 3;
 	position: relative;
-	height: 30%;
+	height: 25%;
 	background-color: #EF6C00;
 	width: 100%
+	box-shadow: 0 0 5px;
 }
 
 #circle{
 	position: relative;
+	margin:0px;
 	z-index: 2;
 	background-color:#FFB74D;
 	top:-25px;
@@ -154,9 +159,14 @@ footer{
 	width: 100%;
 	height: 60px;
 	background-color: #E65100;
-	margin-top: 10px;
-	border-top: solid 2px #D5D5D5;
+
 }
 #FooterText{
 	position:relative;
+}
+
+@media(min-width: 1919px){
+	#MidleContent{
+		width:1905px; 
+	}
 }
