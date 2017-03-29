@@ -1,0 +1,162 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Comfortaa;
+	-ms-font-family: Comfortaa;
+	-webkit-font-family: Comfortaa;
+}
+
+#SizePage{
+	width:1920px;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #E65100;
+	border-bottom-style:solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #D5D5D5;
+}
+
+#TopText{
+	float:left;
+	margin: 0;
+	color:#E8E8E8;
+	position: relative;
+	top:5px;
+	left: 100px;
+	margin:0px;
+	padding: 0px;
+}
+
+#MidleContent{
+	margin-left:0.5%;
+	margin-right:0.5%;
+	margin-top:0.5%;
+
+	border-bottom: solid 2px #D5D5D5;
+	border-right: solid 2px #D5D5D5;
+	border-top: solid 1px #D5D5D5;
+	border-left: solid 1px #D5D5D5;
+
+	width: 99%;
+	height: 500px;
+	background-color:#EFEFEF;
+	background-image: url("http://www.dtelepathy.com/blog/wp-content/uploads/2015/06/Technique-for-Faster-Web-Development.jpg");
+	background-position: center;
+}
+
+#ContentPanel{
+	
+	margin-left:0.5%;
+	margin-right:0.5%;
+	margin-top:0.5%;
+
+	border-bottom: solid 2px #D5D5D5;
+	border-right: solid 2px #D5D5D5;
+	border-top: solid 1px #D5D5D5;
+	border-left: solid 1px #D5D5D5;
+
+	width: 929px;
+	height: 500px;
+	background-color:#EFEFEF;
+	background-position: center;
+
+}
+
+#CenterContent{
+	position: relative;
+	z-index: 1;
+	top:200px;
+	width: 500px;
+	height: 100px;
+	border: solid 10px #FFE0B2;
+}
+
+#CenterText{
+	position: relative;
+	top : 7px;
+	font-size: 5em;
+	color:#FFE0B2;
+}
+
+#MidleContent : hover{
+	border-bottom-width:5px;
+	border-right-width:5px;
+}
+
+
+#SubTopText{
+	float:left;
+	position: relative;
+	top:25px;
+	left: -100px;
+	z-index: 1;
+	color:#D6D6D6;
+}
+
+#ContentDivTop{
+	position: relative;
+	height: 70%;
+	width: 100%
+	z-index: 1;
+	background-color: #FFE0B2;
+}
+#DivTopText{
+	color:#424242;
+	position:relative;
+	left: -250px;
+	top:300px;
+	z-index: 2;
+	font-size: 2em;
+}
+#ContenDivButtom{
+	z-index: 1;
+	position: relative;
+	height: 30%;
+	background-color: #EF6C00;
+	width: 100%
+}
+
+#circle{
+	position: relative;
+	z-index: 2;
+	background-color:#FFB74D;
+	top:-25px;
+	left: 300px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px;
+}
+
+#MoreButton{
+	width: 30px;
+	height: 5px;
+}
+#MoreButton:before{
+}
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+.ContentBox{
+
+	width: 1920px;
+	height: 1080px;
+
+}
+
+footer{
+	float:left;
+	width: 100%;
+	height: 60px;
+	background-color: #E65100;
+	margin-top: 10px;
+	border-top: solid 2px #D5D5D5;
+}
+#FooterText{
+	position:relative;
+}
