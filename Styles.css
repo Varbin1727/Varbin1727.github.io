@@ -7,6 +7,31 @@
 	-webkit-font-family: Comfortaa;
 }
 
+a{
+	text-decoration:none;
+	color:#E8E8E8;
+	-ms-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	top:0px;
+}
+a:hover{
+	top:7px;
+	color:#ffb882;
+	-ms-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all  0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.TextTopMenu{
+	float: left;
+	position:relative;
+	top:5px;
+	margin-right:10px;
+}
+
 #SizePage{
 	width:1920px;
 }
@@ -20,27 +45,34 @@ header{
 	border-bottom-color: #D5D5D5;
 }
 
+.TopMenu{
+	position:absolute;
+	left:375px;
+	width: 500px;
+	height: 50px;
+	top:22px;
+
+}
+
 #TopText{
 	float:left;
-	margin: 0;
 	color:#E8E8E8;
 	position: relative;
-	top:5px;
-	left: 100px;
-	margin:0px;
+	margin-top: 5px;
+	margin-left:10px;
 	padding: 0px;
 }
 
 #MidleContent{
 
-	margin-top:0.5%;
+	margin-top:20px;
 
 	box-shadow: 0 0 2px;
 
 	width: 100%;
 	height: 500px;
 	background-color:#EFEFEF;
-	background-image: url("http://www.dtelepathy.com/blog/wp-content/uploads/2015/06/Technique-for-Faster-Web-Development.jpg");
+	background-image: url("http://i.wp-b.com/media/2015-10-23/X9BAQWpFXA.jpg");
 	background-position: center;
 }
 
@@ -50,13 +82,6 @@ header{
 	margin-right:0.5%;
 	margin-top:5;
 	margin-bottom: 10px;
-
-	/*
-	border-bottom: solid 2px #D5D5D5;
-	border-right: solid 2px #D5D5D5;
-	border-top: solid 1px #D5D5D5;
-	border-left: solid 1px #D5D5D5;
-	*/
 	width: 929px;
 	height: 600px;
 	background-color:#EFEFEF;
@@ -89,16 +114,15 @@ header{
 
 
 #SubTopText{
-	float:left;
 	position: relative;
-	top:25px;
-	left: -100px;
-	z-index: 1;
+	float:left;
 	color:#D6D6D6;
+	margin-left: 25px;
+	margin-top:-12px;
 }
 
 #ContentDivTop{
-	background-image: url("img/OnlyUp.png"); 
+	background-image: url("http://imgur.com/a/HX95f"); 
 	background-position:center;
 	position: relative;
 	height: 75%;
@@ -164,6 +188,7 @@ footer{
 #FooterText{
 	position:relative;
 }
+
 
 @media(min-width: 1919px){
 	#MidleContent{
