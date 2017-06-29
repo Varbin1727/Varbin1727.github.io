@@ -49,7 +49,7 @@ header{
 	position:absolute;
 	left:375px;
 	width: 500px;
-	height: 50px;
+	height: 30px;
 	top:22px;
 
 }
@@ -189,9 +189,78 @@ footer{
 	position:relative;
 }
 
+.MidleInfoBlock{
+	position: relative;
+	margin-top:20px;
+	width: 700px;
+	height: 300px;
+	background-color:#dedede;
+	border: solid 1px #d1d1d1;
+	border-radius: 2px;
+}
 
-@media(min-width: 1919px){
+.HeaderObautUs{
+
+
+
+}
+
+.HeaderText{
+	padding-top: 20px;
+	padding-left: 225px;
+	font-size: 2em;
+	color:#2e2e2e;
+}
+
+.AboutAfter{
+	position: relative;
+	font-size: 1.2em;
+	color:#2e2e2e;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 5px;
+	color:#b3b2b1;
+}
+
+.AfterBox{
+	border-radius: 5px;
+	text-align: left;
+	margin-top: 50px;
+	height: 250px;
+	width:800px;
+	background-color:#fff4eb;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.AvatarImage{
+	float:left;
+	margin:0;
+	position: relative;
+	top:-20px;
+	left: 20px;
+	background-image: url(https://pp.userapi.com/c637429/v637429450/3949d/nRXf1oLHqB8.jpg);
+	border-radius:50%;
+	width:200px;
+	height:200px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.ContentLine{
+
+	margin-top: 50px;
+	width: 100%;
+	height: 50px;
+	background-color:#E65100;
+	border-radius: 5px 5px 0 0;
+ 	box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+
+@media(min-width: 1600px){
 	#MidleContent{
-		width:1905px; 
+		width:1600px; 
+	}
+@media(min-width: 1600px){
+	.ContentLine{
+		width:1600px; 
 	}
 }
